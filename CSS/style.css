@@ -1,0 +1,32 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+        "logo header header"
+        "nav main main"
+        "nav ad adtwo"
+        "footer footer footer";
+}
+#logo{
+    grid-area:logo;
+}
+#header{
+    grid-area:header;
+}
+#nav{
+    grid-area: nav;
+}
+#main{
+    grid-area:main;
+}
+#ad{
+    grid-area:ad;
+}
+#adtwo{
+    grid-area:adtwo;
+}
+#footer{
+    grid-area:footer;
+}
+div{
+border:1px solid black}
